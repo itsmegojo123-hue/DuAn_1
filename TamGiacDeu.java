@@ -11,7 +11,7 @@ public class TamGiacDeu {
         c = sc.nextInt();
 if((a+b >c) && (a+c >b) && (b+c > a)){
             if(a==b && b==c)
-                System.out.println("-> Tam giac deu");
+                System.out.println("-> Day la tam giac deu");
 }
 }
 }
