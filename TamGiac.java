@@ -16,5 +16,13 @@ public class TamGiac {
         c = sc.nextInt();
 
         
+        if (a + b > c && b + c > a && a + c > b) {
+            System.out.println("Day la tam giac");
+        } else {
+            System.out.println("Day khong phai la tam giac");
+        }
+
+        sc.close();
+        
     }
 }
