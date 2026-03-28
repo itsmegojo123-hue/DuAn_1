@@ -21,7 +21,7 @@ public class TamGiacVuong {
         } else {
             System.out.println("Day khong phai la tam giac");
         }
-
+        System.out.println("1");
         sc.close();
     }
 }
