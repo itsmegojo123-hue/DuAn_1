@@ -16,16 +16,5 @@ public class TamGiac {
         c = sc.nextInt();
 
         
-        if((a+b >c) && (a+c >b) && (b+c > a)){
-            System.out.println("Day la tam giac");
-            if(a==b || b==c || a==c){
-                if((a*a + b*b == c*c) || (a*a + c*c == b*b) || (b*b + c*c == a*a))
-                    System.out.println("-> Tam giac vuong can");
-                else
-                    System.out.println("-> Tam giac can");
-            }
-        }
-        else
-            System.out.println("-> Khong the tao thanh tam giac");
     }
 }
