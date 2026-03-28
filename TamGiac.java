@@ -23,6 +23,6 @@ public class TamGiac {
         }
 
         sc.close();
-        System.out.println("1");
+        
     }
 }
